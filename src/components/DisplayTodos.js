@@ -34,21 +34,21 @@ const DisplayTodos = (props) => {
           whileTap={{ scale: 0.9 }}
           onClick={() => setSort("active")}
         >
-          Active
+          Actief
         </motion.button>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={() => setSort("completed")}
         >
-          Completed
+          Klaar
         </motion.button>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={() => setSort("all")}
         >
-          All
+          Alles
         </motion.button>
       </div>
       <ul>
